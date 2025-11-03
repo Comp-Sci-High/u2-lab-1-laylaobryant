@@ -11,26 +11,33 @@
 // 1️⃣ String
 // Declare a variable named studentName and store your name as a string.
 // Use string interpolation to log the sentence describing its value and type.
+let studentName = "Layla"
+console.log(`The variable has the value ${studentName} and its type is ${typeof(studentName)}`)
 
 // 2️⃣ Number
 // Declare a variable named studentAge and store your age as a number.
 // Use string interpolation to log the sentence describing its value and type.
-
+let studentAge = 15
+console.log(`The variable has the value ${studentAge} and its type is ${typeof (studentAge)}`)
 // 3️⃣ Boolean
 // Declare a variable named isEnrolled and assign it either true or false.
 // Use string interpolation to log the sentence describing its value and type.
-
+let isEnrolled = true
+console.log(`The variable has the value ${isEnrolled} and its type is ${typeof (isEnrolled)}`)
 // 4️⃣ Undefined
 // Declare a variable named favoriteSubject but do not assign it a value.
 // Use string interpolation to log the sentence describing its value and type.
-
+let favoriteSubject
+console.log(`The variable has the value ${favoriteSubject} and its type is ${typeof (favoriteSubject)}`)
 // 5️⃣ Null
 // Declare a variable named nextClass and set it equal to null.
 // Use string interpolation to log the sentence describing its value and type.
-
+let nextClass = null
+console.log(`The variable has the value ${nextClass} and its type is ${typeof (nextClass)}`)
 // 6️⃣ Check
 // When finished, run your file to verify that all outputs print correctly.
 // Run your file by typing node index.js in the terminal
 
 // 6️⃣ Commit & Push
 // Save your work and push it for grading
+
